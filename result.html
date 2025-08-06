@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction Result</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(120deg, #dfefff, #ffffff);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-image: url('https://media.istockphoto.com/id/1156928011/photo/heart-attack-heart-attack-conceptual-artwork-3d-illustration.webp?a=1&b=1&s=612x612&w=0&k=20&c=n60weM4Qyy3KKAf2kASg6F7fmGzFQUmsUHAqA-aO1K0=');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .overlay {
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 40px;
+            border-radius: 15px;
+            max-width: 600px;
+            width: 90%;
+            text-align: center;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            border: 4px solid #0d6efd;
+        }
+
+        h2 {
+            font-weight: 800;
+            margin-bottom: 25px;
+            color: #0d6efd;
+        }
+
+        .alert-info {
+            font-size: 1.5rem;
+            font-weight: bold;
+            background-color: #d0ebff;
+            color: #084298;
+            padding: 25px;
+            border-radius: 12px;
+            margin-top: 20px;
+            margin-bottom: 30px;
+            border: 2px dashed #0d6efd;
+        }
+
+        .btn-primary {
+            background-color: #0d6efd;
+            border: none;
+            padding: 12px 30px;
+            font-weight: bold;
+            font-size: 1.1rem;
+            border-radius: 10px;
+            transition: 0.3s ease;
+        }
+
+        .btn-primary:hover {
+            background-color: white;
+            color: #0d6efd;
+            border: 2px solid #0d6efd;
+            transform: scale(1.05);
+        }
+
+        @media (max-width: 576px) {
+            .overlay {
+                padding: 25px;
+            }
+
+            h2 {
+                font-size: 1.5rem;
+            }
+
+            .alert-info {
+                font-size: 1.2rem;
+            }
+
+            .btn-primary {
+                font-size: 1rem;
+                padding: 10px 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="overlay">
+        <h2>🧠 Stroke Prediction Result</h2>
+        <div class="alert alert-info">
+            <strong>Prediction:</strong>{{probability}}{{Prediction}}
+        </div>
+        <a href="/" class="btn btn-primary">🔁 Go Back to Form</a>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
