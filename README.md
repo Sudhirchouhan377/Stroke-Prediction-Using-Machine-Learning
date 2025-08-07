@@ -87,7 +87,7 @@ The dataset includes the following features:
 - Done using **GridSearchCV**  
 - Parameters tuned:  
   - `n_estimators`, `max_depth`, `min_samples_split` (Random Forest)  
-  - `learning_rate`, `num_leaves` (LightGBM)
+
 
 ---
 
@@ -105,7 +105,7 @@ The dataset includes the following features:
 
 | Strategy                        | Model                       | Accuracy | Precision | Recall | F1 Score |
 |--------------------------------|-----------------------------|----------|-----------|--------|----------|
-| Oversampling (SMOTE) Before Split | Stacking (RF + LightGBM)    | 96%      | 97%       | 94%    | 95%      |
+| Oversampling (SMOTE) Before Split | Stacking (RF )    | 96%      | 97%       | 94%    | 95%      |
 | Undersampling Before Split     | Stacking                    | 78%      | 73%       | 88%    | 80%      |
 
 ✅ **Best result:** Using **SMOTE before splitting** with **Stacking (RF + Boosting)**
