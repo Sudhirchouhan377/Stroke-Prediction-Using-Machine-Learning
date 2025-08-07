@@ -36,7 +36,7 @@ Users can input:
 - Python 🐍
 - Flask 🌐
 - HTML + CSS + Bootstrap 🎨
-- Scikit-learn, LightGBM, Imbalanced-learn 📊
+- Scikit-learn, Imbalanced-learn 📊
 - Joblib (for loading trained model)
 
 ### 📥 Prediction Output
@@ -121,7 +121,7 @@ The dataset includes the following features:
 ## 🧠 Conclusion
 
 - **Random Forest**, when paired with RFE and proper tuning, offers strong predictive performance.  
-- **Stacking (Bagging + Boosting + LightGBM)** outperforms individual models.  
+- **Stacking (Bagging + Boosting )** outperforms individual models.  
 - Applying **SMOTE before splitting** leads to the most reliable performance on imbalanced datasets.  
 - This pipeline can be integrated into real-world healthcare systems for early stroke detection.
 
