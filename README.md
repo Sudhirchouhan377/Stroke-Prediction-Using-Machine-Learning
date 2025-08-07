@@ -88,6 +88,11 @@ Undersampling Before Split	Stacking	78%	73%	88%	80%
 ✅ Best result: Using SMOTE before splitting with Stacking (RF + Boosting)
 
 
+## 📉 ROC Curve (Stacked Model vs Random)
+
+[ROC Curve](images/roc_curve.png)
+
+
 🧠 Conclusion
 Random Forest, when paired with RFE and proper tuning, offers strong predictive performance.
 
