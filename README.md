@@ -10,6 +10,41 @@ Stroke is a major cause of death and long-term disability. This project focuses 
 
 ---
 
+## 🧠 Web App Overview
+
+## Patient Details Overview
+![Patient_details](Patient_Details_Overview.png)
+
+---
+
+## Result Overview
+![Result](Result_Overview.png)
+
+---
+
+
+
+This project includes a **Flask-based web application** that allows users (doctors, health workers, or patients) to enter patient details and get a **stroke prediction** instantly using a trained machine learning model.
+
+Users can input:
+- Age, Gender, BMI, Glucose level
+- Heart disease, Hypertension status
+- Work type, Smoking status
+- And more...
+
+### ⚙️ Built With
+- Python 🐍
+- Flask 🌐
+- HTML + CSS + Bootstrap 🎨
+- Scikit-learn, LightGBM, Imbalanced-learn 📊
+- Joblib (for loading trained model)
+
+### 📥 Prediction Output
+- Prediction (Stroke / No Stroke)
+- Probability Score
+
+---
+
 ## 📁 Dataset
 
 The dataset includes the following features:
