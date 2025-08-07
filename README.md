@@ -102,6 +102,6 @@ The dataset includes the following features:
 
 ## 👨‍💻 Authors
 
-- **Sudhir Chouhan** — [sudhirc377@gamil.com](mailto:sudhirc377@gamil.com)  
-- **Vaibhav Pratap Singh** — [vaibhavpsinghsng@gmail.com](mailto:vaibhavpsinghsng@gmail.com)  
+- [**Sudhir Chouhan**](https://www.linkedin.com/in/your-link-sudhir) — [sudhirc377@gamil.com](mailto:sudhirc377@gamil.com)  
+- [**Vaibhav Pratap Singh**](https://www.linkedin.com/in/your-link-vaibhav) — [vaibhavpsinghsng@gmail.com](mailto:vaibhavpsinghsng@gmail.com)  
 - **Supervisor:** Dr. Suchismita Mahato, Department of CSE, NIT Jamshedpur
