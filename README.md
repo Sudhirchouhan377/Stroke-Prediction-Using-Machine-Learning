@@ -90,7 +90,7 @@ Undersampling Before Split	Stacking	78%	73%	88%	80%
 
 ## 📉 ROC Curve (Stacked Model vs Random)
 
-[ROC Curve](images/roc_curve.png)
+![ROC Curve](roc_curve.png)
 
 
 🧠 Conclusion
