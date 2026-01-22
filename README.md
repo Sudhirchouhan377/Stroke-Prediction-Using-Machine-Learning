@@ -1,16 +1,16 @@
-# 🧠 Stroke Prediction Using Machine Learning
+# Stroke Prediction Using Machine Learning
 
 A machine learning-based stroke prediction system designed to help identify high-risk patients early using Random Forest and ensemble techniques. This project aims to integrate predictive modeling into healthcare analytics for timely intervention and better patient outcomes.
 
 ---
 
-## 📊 Abstract
+## Abstract
 
 Stroke is a major cause of death and long-term disability. This project focuses on developing a stroke prediction system using Random Forest and ensemble learning methods like Stacking (Bagging + Boosting + LightGBM). The model is trained on a healthcare dataset containing various patient features such as age, hypertension, BMI, and glucose levels. Class imbalance is handled with oversampling and undersampling methods like SMOTE and RandomUnderSampler.
 
 ---
 
-## 🧠 Web App Overview
+## Web App Overview
 
 ## Patient Details Overview
 ![Patient_details](Patient_Details_Overview.png)
@@ -32,20 +32,20 @@ Users can input:
 - Work type, Smoking status
 - And more...
 
-### ⚙️ Built With
-- Python 🐍
-- Flask 🌐
-- HTML + CSS + Bootstrap 🎨
-- Scikit-learn, Imbalanced-learn 📊
+### Built With
+- Python 
+- Flask 
+- HTML + CSS + Bootstrap 
+- Scikit-learn, Imbalanced-learn 
 - Joblib (for loading trained model)
 
-### 📥 Prediction Output
+### Prediction Output
 - Prediction (Stroke / No Stroke)
 - Probability Score
 
 ---
 
-## 📁 Dataset
+## Dataset
 
 The dataset includes the following features:
 
@@ -56,33 +56,33 @@ The dataset includes the following features:
 
 ---
 
-## ⚙️ Methodology
+## Methodology
 
-### ✔️ Preprocessing
+### Preprocessing
 
 - Categorical encoding using **One-Hot Encoding**  
 - **MinMax Scaling** for numerical features
 
-### ✔️ Balancing the Data
+### Balancing the Data
 
 - **SMOTE** (Oversampling minority class)  
 - **Random UnderSampling**  
-✅ Best results achieved when balancing is applied **before splitting** the data
+  Best results achieved when balancing is applied **before splitting** the data
 
-### ✔️ Feature Selection
+###  Feature Selection
 
 - **Recursive Feature Elimination (RFE)** using Random Forest to select top features:  
   `avg_glucose_level`, `age`, `bmi`, etc.
 
-### ✔️ Model Training
+### Model Training
 
-- 🔍 **Random Forest** as the base classifier  
-- 🔄 **Ensemble Learning**:  
+- **Random Forest** as the base classifier  
+- **Ensemble Learning**:  
   - **Bagging:** Random Forest  
   - **Boosting:** LightGBM  
   - **Stacking:** Combines predictions from Bagging and Boosting with a meta-classifier
 
-### ✔️ Hyperparameter Tuning
+###  Hyperparameter Tuning
 
 - Done using **GridSearchCV**  
 - Parameters tuned:  
@@ -91,7 +91,7 @@ The dataset includes the following features:
 
 ---
 
-## 📈 Evaluation Metrics
+##  Evaluation Metrics
 
 - Accuracy  
 - Precision  
@@ -101,24 +101,24 @@ The dataset includes the following features:
 
 ---
 
-## 🧪 Results Summary
+## Results Summary
 
 | Strategy                        | Model                       | Accuracy | Precision | Recall | F1 Score |
 |--------------------------------|-----------------------------|----------|-----------|--------|----------|
 | Oversampling (SMOTE) Before Split | Stacking (RF )    | 96%      | 97%       | 94%    | 95%      |
 | Undersampling Before Split     | Stacking                    | 78%      | 73%       | 88%    | 80%      |
 
-✅ **Best result:** Using **SMOTE before splitting** with **Stacking (RF + Boosting)**
+ **Best result:** Using **SMOTE before splitting** with **Stacking (RF + Boosting)**
 
 ---
 
-## 📉 ROC Curve (Stacked Model vs Random)
+## ROC Curve (Stacked Model vs Random)
 
 ![ROC Curve](roc_curve.png)
 
 ---
 
-## 🧠 Conclusion
+##  Conclusion
 
 - **Random Forest**, when paired with RFE and proper tuning, offers strong predictive performance.  
 - **Stacking (Bagging + Boosting )** outperforms individual models.  
@@ -127,7 +127,7 @@ The dataset includes the following features:
 
 ---
 
-## 📚 References
+##  References
 
 - Guhdar et al. (2023), _"Stroke Prediction Using ML"_  
 - Dritsas & Trigka (2022), _"Naive Bayes and SMOTE"_  
